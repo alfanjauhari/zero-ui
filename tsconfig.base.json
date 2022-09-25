@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@zero-ui/button": ["packages/components/button/src/index.ts"],
+      "@zero-ui/core": ["packages/core/src/index.ts"],
+      "@zero-ui/docs": ["packages/docs/src/index.ts"],
+      "@zero-ui/hooks": ["packages/hooks/src/index.ts"],
+      "@zero-ui/provider": ["packages/components/provider/src/index.ts"],
+      "@zero-ui/theme": ["packages/theme/src/index.ts"],
+      "@zero-ui/types": ["packages/types/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,5 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "components-button": "packages/components/button",
+    "components-provider": "packages/components/provider",
+    "core": "packages/core",
+    "docs": "packages/docs",
+    "hooks": "packages/hooks",
+    "theme": "packages/theme",
+    "types": "packages/types"
+  }
 }
